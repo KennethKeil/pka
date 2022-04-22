@@ -4,9 +4,9 @@ public class ChessClub extends Club {
 
     private String zpsCode;
 
-    public ChessClub(String zpsCode) {
+    public ChessClub() {
         super();
-        this.zpsCode = zpsCode;
+        this.zpsCode = "F2208";
     }
 
     public ChessClub(String clubName, Address address, Name name, String zpsCode) {

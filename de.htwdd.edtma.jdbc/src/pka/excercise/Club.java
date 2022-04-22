@@ -7,8 +7,8 @@ public class Club {
     private Name name;
 
     public Club() {
-        this(   "SG Grün-Weiß Dresden",
-                new Address("Musterstr", 24, "01069", "Dresden"),
+        this(   "Schachzentrum Seeblick e.V.",
+                new Address("Talsperrenstraße", 56, "01744", "Dippoldiswalde"),
                 new Name("Max",'a',"Mustermann")
         );
     }
