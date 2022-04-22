@@ -1,0 +1,19 @@
+package de.htwdd.edtma.db.client;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.sql.SQLException;
+
+public class OracleClient extends DBClient{
+
+	
+	public OracleClient(String server, String user, String password, String sid) {
+		// Aufruf mit connection url für Oracle-Server
+		super("jdbc:oracle:thin:"+user+"/"+password+"@"+server+":"+sid);
+	}
+	
+	
+
+}

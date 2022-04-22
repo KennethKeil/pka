@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/de.htwdd.edtma.jdbc/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/de.htwdd.edtma.jdbc/lib/sqljdbc41.jar!/" />
+      <root url="jar://$PROJECT_DIR$/de.htwdd.edtma.jdbc/lib/jackcess-3.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/de.htwdd.edtma.jdbc/lib/hsqldb-2.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/de.htwdd.edtma.jdbc/lib/ucanaccess-5.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/de.htwdd.edtma.jdbc/lib/commons-lang3-3.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/de.htwdd.edtma.jdbc/lib/ojdbc7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
