@@ -4,6 +4,7 @@ import pka.excercise.*;
 
 public class CRUD {
 
+    // ToDo add address by insert
     private static final String INSERT_CLUB_SQL = "INSERT INTO Schachverein" +
             "  (ZPS-Code, Vereinsname) VALUES " +
             " (?, ?);";
@@ -18,6 +19,7 @@ public class CRUD {
 
             preparedStatement.setString(1, chessClub.getZpsCode());
             preparedStatement.setString(2, chessClub.getClubName());
+            // ToDo add columns
             System.out.println(preparedStatement);
             preparedStatement.executeUpdate();
 
@@ -57,6 +59,6 @@ public class CRUD {
 
         ChessClub seeblickeV = new ChessClub();
         insertChessClub(seeblickeV);
-        // ToDo Print Out ChestClub
+        // ToDo: Print Out ChestClub's (extra Print-Methode) by .toString() Object Methode inkl. Meta-Values for header
     }
 }
